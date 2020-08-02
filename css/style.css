@@ -501,7 +501,6 @@ overflow:visible;
 	#mainmenu li {
 	margin: 0px 0px;
 	padding: 0px 0px;
-	float: left;
 	display: inline;
 	list-style: none;
 	position: relative;
@@ -1192,15 +1191,9 @@ footer {
 	position: absolute;
 	}
 	
-	#blog-comment li li .comment {
-	}
-	
 	.comment-info {
 	margin-left: 90px;
 	margin-bottom: 5px;
-	}
-	
-	.comment-info span {
 	}
 	
 	.comment-info .c_name {
@@ -1877,7 +1870,6 @@ border:solid 1px #ddd;
 	.dropcap {
 	display: inline-block;
 	font-size: 48px;
-	float: left;
 	margin: 10px 15px 15px 0;
 	color:#eceff3;
 	padding: 20px 10px 20px 10px;
@@ -1988,8 +1980,6 @@ border:solid 1px #ddd;
 	margin-left:0;
 	margin-bottom:15px;
 	width:40px;
-	}
-	h2{
 	}
 	h3 {
 	margin-top: 0;
@@ -2332,8 +2322,6 @@ border:solid 1px #ddd;
 	.feature-box-image-2.no-bg h2 {
 	padding-top:12px;
 	}
-	.feature-box-image-2.no-bg{
-	}
 	.feature-box-image-2.no-bg .inner, .feature-box-image-2.no-bg .inner:hover{
 	padding:0;
 	background:none;
@@ -2355,8 +2343,6 @@ border:solid 1px #ddd;
 	/* feature-box image style 4 */
 	.feature-box-big-icon{
 	text-align:center;
-	}
-	.feature-box-big-icon .text{
 	}
 	.feature-box-big-icon i {
 	float:none;
@@ -2630,33 +2616,17 @@ border:solid 1px #ddd;
 	width: 49%;
 	}
 	
-	.pricing-3-col {
-	}
-	
 	.pricing-3-col .pricing-box {
 	width: 32.33%;
-	}
-	
-	.pricing-4-col {
 	}
 	
 	.pricing-4-col .pricing-box {
 	width: 24%;
 	}
 	
-	.pricing-5-col {
-	}
-	
 	.pricing-5-col .pricing-box {
 	width: 19%;
 	}
-	
-	.pricing-2-col,
-	.pricing-3-col,
-	.pricing-4-col,
-	.pricing-5-col{
-	}
-	
 	
 	.pricing-box {
 	float: left;
@@ -2698,9 +2668,6 @@ border:solid 1px #ddd;
 	padding: 15px 0 15px 0;
 	}
 	
-	.pricing-box li.title-row h4{
-	}
-	
 	.pricing-box li.price-row {
 	padding: 15px 0 15px 0;
 	background:#F8F8F8;
@@ -2722,8 +2689,7 @@ border:solid 1px #ddd;
 	.pricing-box li.btn-row {
 	background: #ddd;
 	}
-	.pricing.pricing-box{
-	}
+
 	.pricing.pricing-box ul {
 	margin: 0;
 	padding: 0;
@@ -2956,8 +2922,7 @@ border:solid 1px #ddd;
 	line-height: 70px;
 	color: #333;
 }
-.pricing-s2 .top .price .month {
-}
+
 .pricing-s2 .bottom {
 	border-top: 0px;
 	padding-bottom:5px;
@@ -3353,10 +3318,7 @@ border:solid 1px #ddd;
 	.timeline .tl-block .tl-message:after{ display: block; content: ' '; clear:both; }
 	.timeline .tl-block .tl-message .tl-icon{float: left; left:100px; }
 	.timeline .tl-block .tl-message .tl-main{ float: left; }
-	.timeline .tl-block .tl-message .tl-main .tl-title {}
-	.timeline .tl-block .tl-message .tl-main .tl-content{}
 	.timeline .tl-block .tl-message .tl-main .tl-content label{ font-weight: bold; display: inline-block; width: 80px;}
-	.timeline .tl-block .tl-message .tl-main .tl-content span{}
 	.timeline .tl-block .tl-message h3{text-transform:none;}
 	.timeline .tl-block .tl-time h4{margin:0 0 10px 0;}
 	.timeline .tl-block .tl-main h4{margin-top:-5px;}
@@ -3599,9 +3561,6 @@ border:solid 1px #ddd;
 	.de-team-list .team-desc h3{
 		color:#fff;
 		margin-bottom:5px;
-	}
-	
-	.de-team-list .social{
 	}
 	
 	.de-team-list .social a{
@@ -4984,9 +4943,6 @@ p{
 	background:#f5f5f5;
 }
 
-.no-bottom .col-md-12 {
-}
-
 .no-bottom {
 padding-bottom: 0 !important;
 }
@@ -5234,9 +5190,20 @@ right:-15px;
 }
 
 /* new owl close */
-
+@media (min-width:1025px) {
+	.text-slider {
+		left:15%;
+		line-height:60px;
+		color:#fff;
+		font-family:"Dosis";
+		font-size:60px;
+		text-transform:uppercase;
+		font-weight:300;
+		display:inline-block;
+		letter-spacing: 25px;
+	}
+  }
 .text-slider{
-    left:15%;
 	line-height:60px;
 	color:#fff;
 	font-family:"Dosis";
@@ -5244,7 +5211,7 @@ right:-15px;
 	text-transform:uppercase;
 	font-weight:300;
 	display:inline-block;
-	letter-spacing:25px;
+	letter-spacing:2px;
 }
 
 .text-slider.big-text{
@@ -5509,7 +5476,6 @@ font-size:12px;
 #de-color li{
 	list-style:none;
 	display:inline-block;
-	float:left;
 	width:38px;
 	height:25px;
 	margin:0 5px 5px 0;
@@ -5568,7 +5534,6 @@ transition:.5s;
 /* ================================================== */
 .quick-search {
 display: inline-block;
-float: right;
 margin-left: 10px;
 padding: 10px 0 0 0;
 }
@@ -6080,9 +6045,6 @@ display:table;
 	padding: 20px;
 	}
 	
-	#revolution-slider{
-	}
-	
 	nav{
 	width:100%;
 	}
@@ -6471,7 +6433,6 @@ display:table;
 	.display-table [class*="col-"] {
 	float: none;
 	display: block;
-	vertical-align: top;
 	}
 	
 	h2.hero{
