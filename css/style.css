@@ -221,7 +221,7 @@ overflow:visible;
 	header nav a:hover {
 	color: #555; 
 	}
-	header.smaller:not(.header-bottom):not(.side-header) #mainmenu a{
+	/**header.smaller:not(.header-bottom):not(.side-header) #mainmenu a{
 	padding-top: 18px;
 	padding-bottom:18px;
 	}
@@ -244,7 +244,7 @@ overflow:visible;
 	}
 	header.smaller:not(.header-bottom):not(.side-header) div#logo {
 	height:70px;
-	}
+	}**/
 	
 	.logo-smaller div#logo {
 	width: 150px;
